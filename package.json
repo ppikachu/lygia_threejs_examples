@@ -35,15 +35,15 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@parcel/transformer-glsl": "2.8.0",
-    "parcel": "^2.8.0",
+    "@parcel/transformer-glsl": "2.8.2",
+    "parcel": "^2.8.2",
     "parcel-plugin-vite": "^1.0.2",
-    "vite": "^3.2.4",
-    "vite-plugin-glsl": "^0.5.4"
+    "vite": "^4.0.3",
+    "vite-plugin-glsl": "^1.0.1"
   },
   "dependencies": {
     "lil-gui": "^0.17.0",
-    "three": "^0.146.0"
+    "three": "^0.147.0"
   },
   "engines": {
     "node": ">= 14.18.0",
