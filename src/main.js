@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
+//import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import vertex from "./glsl/default.vert";
 // import fragment from "./glsl/default.frag";
 // import fragment from "./glsl/animation_easing.frag";
@@ -28,7 +28,11 @@ import vertex from "./glsl/default.vert";
 // import fragment from "./glsl/generative_worley.frag";
 // import fragment from "./glsl/generative_voronoi.frag";
 // import fragment from "./glsl/sample_bracketing.frag";
-import fragment from "./glsl/sample_untile.frag";
+//import fragment from "./glsl/sample_untile.frag";
+
+//import fragment from "./myglsl/generative.frag";
+//import fragment from "./myglsl/filter_g.frag";
+import fragment from "./myglsl/mandel.frag";
 
 export default class Sketch {
   constructor(options) {

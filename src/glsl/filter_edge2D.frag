@@ -32,7 +32,7 @@ void main (void) {
 
     color -= step(st.y, 0.05) * 0.5;
     color = clamp(color, vec3(0.), vec3(1.));
-    color += digits(st - vec2(ix/5.0 + 0.01, 0.01), radius);
+    color += digits(st - vec2(ix/5.0 + 0.01, 0.01), ani);
     color -= step(.98, fract(st.x * 5.0));
     color.rgb *= rect(st, 1.0);
 
