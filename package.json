@@ -43,7 +43,7 @@
   },
   "dependencies": {
     "lil-gui": "^0.17.0",
-    "three": "^0.147.0"
+    "three": "^0.148.0"
   },
   "engines": {
     "node": ">= 14.18.0",
